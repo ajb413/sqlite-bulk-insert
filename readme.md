@@ -1,5 +1,5 @@
 # Bulk Insert
-Wrapper [`sqlite`](https://www.npmjs.com/package/sqlite) npm package. The bulk insert has no limit on how many rows it will attempt to insert. Careful, or `RangeError: Invalid string length` will occur because the insert becomes a long `string`.
+Wrapper for [`sqlite`](https://www.npmjs.com/package/sqlite) npm package. The bulk insert has no limit on how many rows it will attempt to insert. Careful, or `RangeError: Invalid string length` will occur because the insert becomes a long `string`. Returns an ES6 promise.
 
 ```javascript
 const sqlite = require('sqlite');
